@@ -25,10 +25,8 @@ Project for DhwaniRIS
 ###### Task 3
 
 > Backend Using MRC:
-**installation** 
-```_npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid_```
-
-
+- **installation** 
+   -```_npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid_```
 - All files are structured in ** Model, Route, and Controller**
 - Created 4 Api for taking the data
 - The First One is User Register
