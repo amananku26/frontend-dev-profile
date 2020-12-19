@@ -34,7 +34,7 @@ Project for DhwaniRIS
 - Created 4 Api for taking the data
 - The First One is User Register
 
-  - paste this url to postman **[For Register](http://localhost:5000/api/register)**
+  - paste this url to postman **(http://localhost:5000/api/register)**
   ```
      {
        "email": "MasaiSchool@gmail.com",
