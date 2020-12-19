@@ -67,3 +67,19 @@ Project for DhwaniRIS
         "district":"Saharsa"
      }
   ``` 
+
+- For Getting the info of Child  **(http://localhost:5000/api/getchild)**
+- For ```Post``` the child data to DB **(http://localhost:5000/api/addchild)**
+  ```
+     {
+    "name":"Rahul Gandhi",
+    "sex":"Male",
+    "dob":"17/12/1987",
+    "fatherName":"Rajiv Gandhi",
+    "motherName":"Sonia Gandhi",
+    "state":"New Delhi",
+    "district":"Pritampura",
+    "stateid":"3",
+    "districtid":"4"
+    }
+  ```   
