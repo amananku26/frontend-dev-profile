@@ -43,6 +43,6 @@ Project for DhwaniRIS
   ```
 
 - In this project i have used ```const bcrypt = require("bcryptjs")``` for hashing
-- For ID One mongoose default ```_id`` and one i have used to match the state abd district data to child id ```uuidv4()```
+- For ID One mongoose default ```_id``` and one i have used to match the state abd district data to child id ```uuidv4()```
 -
   
