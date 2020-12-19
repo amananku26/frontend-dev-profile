@@ -24,10 +24,13 @@ Project for DhwaniRIS
 
 ###### Task 3
 
+**installation** 
+   ```npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid```
+
 > Backend Using MRC:
-- **installation** 
-   -```_npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid_```
+
 - All files are structured in ** Model, Route, and Controller**
+- For running the server and to connect to DB use ```nodemon server.js```
 - Created 4 Api for taking the data
 - The First One is User Register
 
@@ -40,5 +43,6 @@ Project for DhwaniRIS
   ```
 
 - In this project i have used ```const bcrypt = require("bcryptjs")``` for hashing
-- 
+- For ID One mongoose default ```_id`` and one i have used to match the state abd district data to child id ```uuidv4()```
+-
   
