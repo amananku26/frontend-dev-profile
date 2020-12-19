@@ -25,8 +25,8 @@ Project for DhwaniRIS
 ###### Task 3
 
 > Backend Using MRC:
-> installation 
-> npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid
+**installation** 
+```_npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid_```
 
 
 - All files are structured in ** Model, Route, and Controller**
