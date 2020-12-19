@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Cards1 {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f857a6; 
+  height: 185px;
+  width: 485px;
+  background: -webkit-linear-gradient(to right, #ff5858, #f8d357);
+  background: linear-gradient(to right, #ff5858, #f857a6); 
+  text-shadow: 15px;
+  border-radius: 15px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  box-shadow: 10px 10px 8px 10px #888888;
+  margin: auto;
+  width: 50%;
+  border: 3px solid #F09819;
+  padding: 10px;
+}
+
+.Cards2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nametxt{
+  position: relative;
+  bottom: 17px;
+  font-size: 20px;
+}
+.AddBtn {
+  border: none;
+  padding: 7px;
+  background: none;
+  width: 125px;
+  margin-top: 25px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 17px;
+}
+.tup{
+  background: #1FA2FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-bottom: 2px solid #12D8FA;  
+}
