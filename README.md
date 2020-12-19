@@ -25,10 +25,14 @@ Project for DhwaniRIS
 ###### Task 3
 
 > Backend Using MRC:
+> installation 
+> npm i bcrypt cors dotenv express express-validator joi jsonwebtoken mongoose uuid
+
 
 - All files are structured in ** Model, Route, and Controller**
 - Created 4 Api for taking the data
 - The First One is User Register
+
   - paste this url to postman **[For Register](http://localhost:5000/api/register)**
   ```
      {
@@ -36,4 +40,7 @@ Project for DhwaniRIS
        "password": "Mypassword"
      }
   ```
+
+- In this project i have used ```const bcrypt = require("bcryptjs")``` for hashing
+- 
   
