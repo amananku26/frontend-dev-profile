@@ -44,5 +44,26 @@ Project for DhwaniRIS
 
 - In this project i have used ```const bcrypt = require("bcryptjs")``` for hashing
 - For ID One mongoose default `<_id>` and one i have used to match the state abd district data to child id ```uuidv4()```
--
-  
+- For Login **(http://localhost:5000/api/login)**
+  ```
+     {
+       "email": "MasaiSchool@gmail.com",
+       "password": "Mypassword"
+     }
+  ```
+- For Getting the info of state  **(http://localhost:5000/api/getstate)**
+- For ```Post``` the data to DB **(http://localhost:5000/api/addstate)**
+  ```
+     {
+        "state":"Bihar"
+     }
+  ``` 
+
+- For Getting the info of District  **(http://localhost:5000/api/getdistrict)**
+- For ```Post``` the data to DB **(http://localhost:5000/api/adddistrict)**
+  ```
+     {
+        "state":"Bihar",
+        "district":"Saharsa"
+     }
+  ``` 
